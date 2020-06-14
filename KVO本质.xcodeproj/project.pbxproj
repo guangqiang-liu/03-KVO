@@ -16,6 +16,7 @@
 		9C1EF1A423E8705D00B528FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1EF1A323E8705D00B528FD /* main.m */; };
 		9C1EF1AE23E8705E00B528FD /* KVO__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1EF1AD23E8705E00B528FD /* KVO__Tests.m */; };
 		9C1EF1B923E8705E00B528FD /* KVO__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1EF1B823E8705E00B528FD /* KVO__UITests.m */; };
+		9C1EF1C823E8706D00B528FD /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1EF1C723E8706D00B528FD /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,10 @@
 		9C1EF1B423E8705E00B528FD /* KVO本质UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KVO本质UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C1EF1B823E8705E00B528FD /* KVO__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVO__UITests.m; sourceTree = "<group>"; };
 		9C1EF1BA23E8705E00B528FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C1EF1C623E8706D00B528FD /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		9C1EF1C723E8706D00B528FD /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		9C1EF1C923E9120100B528FD /* NSKVONotifying_Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSKVONotifying_Person.h; sourceTree = "<group>"; };
+		9C1EF1CA23E9120100B528FD /* NSKVONotifying_Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSKVONotifying_Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +115,10 @@
 				9C1EF19523E8705C00B528FD /* SceneDelegate.m */,
 				9C1EF19723E8705C00B528FD /* ViewController.h */,
 				9C1EF19823E8705C00B528FD /* ViewController.m */,
+				9C1EF1C623E8706D00B528FD /* Person.h */,
+				9C1EF1C723E8706D00B528FD /* Person.m */,
+				9C1EF1C923E9120100B528FD /* NSKVONotifying_Person.h */,
+				9C1EF1CA23E9120100B528FD /* NSKVONotifying_Person.m */,
 				9C1EF19A23E8705C00B528FD /* Main.storyboard */,
 				9C1EF19D23E8705D00B528FD /* Assets.xcassets */,
 				9C1EF19F23E8705D00B528FD /* LaunchScreen.storyboard */,
@@ -269,6 +278,7 @@
 			files = (
 				9C1EF19923E8705C00B528FD /* ViewController.m in Sources */,
 				9C1EF19323E8705C00B528FD /* AppDelegate.m in Sources */,
+				9C1EF1C823E8706D00B528FD /* Person.m in Sources */,
 				9C1EF1A423E8705D00B528FD /* main.m in Sources */,
 				9C1EF19623E8705C00B528FD /* SceneDelegate.m in Sources */,
 			);
